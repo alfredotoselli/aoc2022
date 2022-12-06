@@ -4,7 +4,8 @@ with open("3_input.txt") as file:
     rucksacks_file = file.readlines()
 
 # split rucksack string in two comp
-# verify if exist an equal letter (case sensitive) on the compartment, put it in a list of error_items
+# verify if exist an equal letter (case sensitive) on the compartment
+# put it in a list of error_items
 # get the priority value of each error item and sum them
 
 priority_values = {}
